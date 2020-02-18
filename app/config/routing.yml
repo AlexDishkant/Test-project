@@ -1,0 +1,7 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+api_lucky_controller_route:
+    path: /lucky
+    defaults: { _controller: AppBundle:Lucky:number, _format: viev }
